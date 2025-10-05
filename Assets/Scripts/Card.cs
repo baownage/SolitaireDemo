@@ -11,16 +11,28 @@ public class Card : MonoBehaviour
     [SerializeField] private SpriteRenderer FaceSpriteRenderer;
     [SerializeField] private CardConfig Config;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    private Vector3 _startPosition;
 
+    private bool _isBeingDragged;
+
+    void OnEnable()
+    {
+        ClickController.OnMouseUp += ReleaseCard;
+    }
+
+    void OnDisable()
+    {
+        ClickController.OnMouseUp -= ReleaseCard;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!_isBeingDragged) return;
 
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
+        transform.position = mousePos;
     }
 
     [Button]
@@ -42,5 +54,28 @@ public class Card : MonoBehaviour
     public void SetSortingOrder(int order)
     {
         SortingGroup.sortingOrder = order;
+    }
+
+    public void Drag()
+    {
+        _isBeingDragged = true;
+    }
+
+    private void ReleaseCard()
+    {
+        _isBeingDragged = false;
+
+        // TODO: Tween it instead of teleport
+        transform.position = _startPosition;
+    }
+
+    public void SetStartPosition(Vector3 pos)
+    {
+        _startPosition = pos;
+    }
+
+    public void SetStartPosition()
+    {
+        _startPosition = transform.position;
     }
 }

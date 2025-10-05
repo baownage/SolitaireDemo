@@ -38,6 +38,7 @@ public class DeckManager : MonoBehaviour
         var cardToDraw = _currentDeck[^1];
         var newCard = CardPool.Instance.GetCard();
         newCard.transform.position = NewCardTransform.position;
+        newCard.SetStartPosition();
         newCard.SetConfig(cardToDraw);
         newCard.SetSortingOrder(52 - _currentDeck.Count);
         _currentDeck.RemoveAt(_currentDeck.Count - 1);
