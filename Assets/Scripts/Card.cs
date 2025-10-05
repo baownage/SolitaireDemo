@@ -2,6 +2,7 @@ using System;
 using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Rendering;
+using DG.Tweening;
 
 public class Card : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Card : MonoBehaviour
     [SerializeField] private SortingGroup SortingGroup;
     [SerializeField] private SpriteRenderer FaceSpriteRenderer;
     [SerializeField] private CardConfig Config;
+
+    [SerializeField] private float CardResetSpeed = 3f;
 
     private Vector3 _startPosition;
 
@@ -59,14 +62,14 @@ public class Card : MonoBehaviour
     public void Drag()
     {
         _isBeingDragged = true;
+        transform.DOKill();
     }
 
     private void ReleaseCard()
     {
         _isBeingDragged = false;
 
-        // TODO: Tween it instead of teleport
-        transform.position = _startPosition;
+        transform.DOMove(_startPosition, CardResetSpeed).SetSpeedBased();
     }
 
     public void SetStartPosition(Vector3 pos)
