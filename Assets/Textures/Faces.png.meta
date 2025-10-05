@@ -1,0 +1,2683 @@
+fileFormatVersion: 2
+guid: da1dc00e142035c4fba1f5f80dec87bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7471852199246917010
+    second: 8BitDeck_0
+  - first:
+      213: 8839113607798723723
+    second: 8BitDeck_1
+  - first:
+      213: -4572080371969476449
+    second: 8BitDeck_2
+  - first:
+      213: -8339761769347056214
+    second: 8BitDeck_3
+  - first:
+      213: 7894441579759498595
+    second: 8BitDeck_4
+  - first:
+      213: -2741712101548725069
+    second: 8BitDeck_5
+  - first:
+      213: -4314773254230065403
+    second: 8BitDeck_6
+  - first:
+      213: 7244809957126976706
+    second: 8BitDeck_7
+  - first:
+      213: 4896823682993948577
+    second: 8BitDeck_8
+  - first:
+      213: 1237586551486387228
+    second: 8BitDeck_9
+  - first:
+      213: 6755216485541251322
+    second: 8BitDeck_10
+  - first:
+      213: 7642897964655022503
+    second: 8BitDeck_11
+  - first:
+      213: 4302502403628870824
+    second: 8BitDeck_12
+  - first:
+      213: -5575730121458478483
+    second: 8BitDeck_13
+  - first:
+      213: 6856610540909487195
+    second: 8BitDeck_14
+  - first:
+      213: -459886157453776765
+    second: 8BitDeck_15
+  - first:
+      213: 6824065837513479568
+    second: 8BitDeck_16
+  - first:
+      213: 4170587609522357905
+    second: 8BitDeck_17
+  - first:
+      213: 3304495168588302964
+    second: 8BitDeck_18
+  - first:
+      213: -7122691739010938997
+    second: 8BitDeck_19
+  - first:
+      213: -1690085155546129366
+    second: 8BitDeck_20
+  - first:
+      213: -3218133187221505879
+    second: 8BitDeck_21
+  - first:
+      213: -2076596620543339015
+    second: 8BitDeck_22
+  - first:
+      213: 718056077872047261
+    second: 8BitDeck_23
+  - first:
+      213: -8862935594447060815
+    second: 8BitDeck_24
+  - first:
+      213: 3768276699841126981
+    second: 8BitDeck_25
+  - first:
+      213: -2259349191682152462
+    second: 8BitDeck_26
+  - first:
+      213: 5021186039404814871
+    second: 8BitDeck_27
+  - first:
+      213: 8349998925987148646
+    second: 8BitDeck_28
+  - first:
+      213: -3143927251413505933
+    second: 8BitDeck_29
+  - first:
+      213: -8638726800079593524
+    second: 8BitDeck_30
+  - first:
+      213: -4872018127956711150
+    second: 8BitDeck_31
+  - first:
+      213: -8817920793126412887
+    second: 8BitDeck_32
+  - first:
+      213: 2310262332215270484
+    second: 8BitDeck_33
+  - first:
+      213: -3471191996762836764
+    second: 8BitDeck_34
+  - first:
+      213: 4311322587162659336
+    second: 8BitDeck_35
+  - first:
+      213: -4661252235669612571
+    second: 8BitDeck_36
+  - first:
+      213: 9176621847481086724
+    second: 8BitDeck_37
+  - first:
+      213: -4710386851920572079
+    second: 8BitDeck_38
+  - first:
+      213: 4855239761655007554
+    second: 8BitDeck_39
+  - first:
+      213: 439527902743142510
+    second: 8BitDeck_40
+  - first:
+      213: -1115624391456313593
+    second: 8BitDeck_41
+  - first:
+      213: -8163181670095598561
+    second: 8BitDeck_42
+  - first:
+      213: 5273507717393672253
+    second: 8BitDeck_43
+  - first:
+      213: -4429881319888516558
+    second: 8BitDeck_44
+  - first:
+      213: -410944548969940053
+    second: 8BitDeck_45
+  - first:
+      213: -4009439140540845806
+    second: 8BitDeck_46
+  - first:
+      213: 5443142413260832075
+    second: 8BitDeck_47
+  - first:
+      213: 982141359837416581
+    second: 8BitDeck_48
+  - first:
+      213: -2062263364896633446
+    second: 8BitDeck_49
+  - first:
+      213: -1270789429379876031
+    second: 8BitDeck_50
+  - first:
+      213: 9007702993215278360
+    second: 8BitDeck_51
+  - first:
+      213: 273007262144522216
+    second: 8BitDeck_52
+  - first:
+      213: 1068239690988629567
+    second: 8BitDeck_53
+  - first:
+      213: -2201629256796480745
+    second: 8BitDeck_54
+  - first:
+      213: -1222776068819367762
+    second: 8BitDeck_55
+  - first:
+      213: -2329503122660421278
+    second: 8BitDeck_56
+  - first:
+      213: 5623066057896507701
+    second: 8BitDeck_57
+  - first:
+      213: -6718279611699159117
+    second: 8BitDeck_58
+  - first:
+      213: -7639696313623119923
+    second: 8BitDeck_59
+  - first:
+      213: 2894350058206394152
+    second: 8BitDeck_60
+  - first:
+      213: 3647859665658792837
+    second: 8BitDeck_61
+  - first:
+      213: 825953035977856867
+    second: 8BitDeck_62
+  - first:
+      213: -6980027804722182656
+    second: 8BitDeck_63
+  - first:
+      213: -1210647193633808159
+    second: 8BitDeck_64
+  - first:
+      213: -1388589412335757808
+    second: 8BitDeck_65
+  - first:
+      213: 7539361378916962612
+    second: 8BitDeck_66
+  - first:
+      213: -5314234997640834276
+    second: 8BitDeck_67
+  - first:
+      213: -2906352009443284895
+    second: 8BitDeck_68
+  - first:
+      213: 742650690615588764
+    second: 8BitDeck_69
+  - first:
+      213: 2029805973900892065
+    second: 8BitDeck_70
+  - first:
+      213: 8909289822873212086
+    second: 8BitDeck_71
+  - first:
+      213: -308640567582659152
+    second: 8BitDeck_72
+  - first:
+      213: 7095052237942631821
+    second: 8BitDeck_73
+  - first:
+      213: -5731484834962964368
+    second: 8BitDeck_74
+  - first:
+      213: 6018398734634266003
+    second: 8BitDeck_75
+  - first:
+      213: 7150739753924052270
+    second: 8BitDeck_76
+  - first:
+      213: 1693707364634682566
+    second: 8BitDeck_77
+  - first:
+      213: -5122133787775807037
+    second: 8BitDeck_78
+  - first:
+      213: 5644361345438943197
+    second: 8BitDeck_79
+  - first:
+      213: -6188388399653759606
+    second: 8BitDeck_80
+  - first:
+      213: -4894712100897596720
+    second: 8BitDeck_81
+  - first:
+      213: 4155749639592392235
+    second: 8BitDeck_82
+  - first:
+      213: -8447892722462003715
+    second: 8BitDeck_83
+  - first:
+      213: -5596480909294742352
+    second: 8BitDeck_84
+  - first:
+      213: -663794915097039459
+    second: 8BitDeck_85
+  - first:
+      213: 4360732871732276451
+    second: 8BitDeck_86
+  - first:
+      213: 5569296509383847135
+    second: 8BitDeck_87
+  - first:
+      213: -372869206728781300
+    second: 8BitDeck_88
+  - first:
+      213: 6211845626176359762
+    second: 8BitDeck_89
+  - first:
+      213: 2932770084177245550
+    second: 8BitDeck_90
+  - first:
+      213: 6072210558690022985
+    second: 8BitDeck_91
+  - first:
+      213: -1077435458556999701
+    second: 8BitDeck_92
+  - first:
+      213: 4326575433661701925
+    second: 8BitDeck_93
+  - first:
+      213: 807536216009705628
+    second: 8BitDeck_94
+  - first:
+      213: -133015185025322671
+    second: 8BitDeck_95
+  - first:
+      213: -4898626551328333631
+    second: 8BitDeck_96
+  - first:
+      213: 7308766889695433561
+    second: 8BitDeck_97
+  - first:
+      213: -1199542658524431173
+    second: 8BitDeck_98
+  - first:
+      213: -1252333368761738096
+    second: 8BitDeck_99
+  - first:
+      213: -6575590526034102561
+    second: 8BitDeck_100
+  - first:
+      213: 1916815837276973661
+    second: 8BitDeck_101
+  - first:
+      213: 7721936910363954872
+    second: 8BitDeck_102
+  - first:
+      213: 1555927868519794352
+    second: 8BitDeck_103
+  - first:
+      213: -5479522889037178602
+    second: 8BitDeck_104
+  - first:
+      213: -3497875133819534292
+    second: 8BitDeck_105
+  - first:
+      213: -6787682875121042631
+    second: 8BitDeck_106
+  - first:
+      213: -2232185846942865672
+    second: 8BitDeck_107
+  - first:
+      213: -4495682173821954723
+    second: 8BitDeck_108
+  - first:
+      213: -8873646681617781906
+    second: 8BitDeck_109
+  - first:
+      213: 2466542259759879410
+    second: 8BitDeck_110
+  - first:
+      213: -204584205269087557
+    second: 8BitDeck_111
+  - first:
+      213: -5018434747664585243
+    second: 8BitDeck_112
+  - first:
+      213: 8123762512279203691
+    second: 8BitDeck_113
+  - first:
+      213: -3895362597072510851
+    second: 8BitDeck_114
+  - first:
+      213: -8416410593451604599
+    second: 8BitDeck_115
+  - first:
+      213: 1995680033950829518
+    second: 8BitDeck_116
+  - first:
+      213: -1505303179410767879
+    second: 8BitDeck_117
+  - first:
+      213: -6707425474791364762
+    second: 8BitDeck_118
+  - first:
+      213: 700408383708096210
+    second: 8BitDeck_119
+  - first:
+      213: -5707895474961459895
+    second: 8BitDeck_120
+  - first:
+      213: 6000694848749473969
+    second: 8BitDeck_121
+  - first:
+      213: 8380386850371622176
+    second: 8BitDeck_122
+  - first:
+      213: -5903912085164615010
+    second: 8BitDeck_123
+  - first:
+      213: -1695893780476694511
+    second: 8BitDeck_124
+  - first:
+      213: 4624478847889757796
+    second: 8BitDeck_125
+  - first:
+      213: 3094401709839302998
+    second: 8BitDeck_126
+  - first:
+      213: -5243459893684453469
+    second: 8BitDeck_127
+  - first:
+      213: 1788204718877890749
+    second: 8BitDeck_128
+  - first:
+      213: 1969112489801066300
+    second: 8BitDeck_129
+  - first:
+      213: 8234237602042865427
+    second: 8BitDeck_130
+  - first:
+      213: -7861235966167932947
+    second: 8BitDeck_131
+  - first:
+      213: -8618278139941144136
+    second: 8BitDeck_132
+  - first:
+      213: 761957185652864181
+    second: 8BitDeck_133
+  - first:
+      213: -1993456452369131690
+    second: 8BitDeck_134
+  - first:
+      213: 9005993976427121152
+    second: 8BitDeck_135
+  - first:
+      213: -5505949952910468897
+    second: 8BitDeck_136
+  - first:
+      213: 6952124396747740124
+    second: 8BitDeck_137
+  - first:
+      213: -5641812453739511026
+    second: 8BitDeck_138
+  - first:
+      213: -8056336719973135467
+    second: 8BitDeck_139
+  - first:
+      213: 7428253958662326034
+    second: 8BitDeck_140
+  - first:
+      213: 2443845943675981241
+    second: 8BitDeck_141
+  - first:
+      213: -3291031569946221012
+    second: 8BitDeck_142
+  - first:
+      213: -5408574920430852724
+    second: 8BitDeck_143
+  - first:
+      213: 4896892251804517680
+    second: 8BitDeck_144
+  - first:
+      213: -958685630508379776
+    second: 8BitDeck_145
+  - first:
+      213: -5996780928493488890
+    second: 8BitDeck_146
+  - first:
+      213: 7836198908497003675
+    second: 8BitDeck_147
+  - first:
+      213: -6943967155112398326
+    second: 8BitDeck_148
+  - first:
+      213: 2523141165074820193
+    second: 8BitDeck_149
+  - first:
+      213: -246273652374774654
+    second: 8BitDeck_150
+  - first:
+      213: 7318684947105236880
+    second: 8BitDeck_151
+  - first:
+      213: 5502123014886164636
+    second: 8BitDeck_152
+  - first:
+      213: -4317018549437761897
+    second: 8BitDeck_153
+  - first:
+      213: 175905787211330112
+    second: 8BitDeck_154
+  - first:
+      213: 5775696144315757691
+    second: 8BitDeck_155
+  - first:
+      213: 4076386771343288199
+    second: 8BitDeck_156
+  - first:
+      213: 6245964628962380626
+    second: 8BitDeck_157
+  - first:
+      213: -5219183908757878986
+    second: 8BitDeck_158
+  - first:
+      213: 838849017611291267
+    second: 8BitDeck_159
+  - first:
+      213: -5736011420875928040
+    second: 8BitDeck_160
+  - first:
+      213: 290167624551785218
+    second: 8BitDeck_161
+  - first:
+      213: 3493552953473635453
+    second: 8BitDeck_162
+  - first:
+      213: -2951708450637129108
+    second: 8BitDeck_163
+  - first:
+      213: -312558956984244859
+    second: 8BitDeck_164
+  - first:
+      213: 473119855959044890
+    second: 8BitDeck_165
+  - first:
+      213: 2634794873545141527
+    second: 8BitDeck_166
+  - first:
+      213: 8992456610297996042
+    second: 8BitDeck_167
+  - first:
+      213: 8203524400576256306
+    second: 8BitDeck_168
+  - first:
+      213: 998791416195635286
+    second: 8BitDeck_169
+  - first:
+      213: -912695252485943856
+    second: 8BitDeck_170
+  - first:
+      213: 6848555752488322573
+    second: 8BitDeck_171
+  - first:
+      213: -8076501655513992672
+    second: 8BitDeck_172
+  - first:
+      213: -4213946507647193361
+    second: 8BitDeck_173
+  - first:
+      213: 2273267784609335950
+    second: 8BitDeck_174
+  - first:
+      213: -5900907099848946957
+    second: 8BitDeck_175
+  - first:
+      213: 2954462194500883871
+    second: 8BitDeck_176
+  - first:
+      213: 3139252780696670470
+    second: 8BitDeck_177
+  - first:
+      213: 2648505004061037960
+    second: 8BitDeck_178
+  - first:
+      213: 5334516479853858469
+    second: 8BitDeck_179
+  - first:
+      213: -6961659724689875016
+    second: 8BitDeck_180
+  - first:
+      213: 4252086733472535261
+    second: 8BitDeck_181
+  - first:
+      213: 63410878146946597
+    second: 8BitDeck_182
+  - first:
+      213: -4855166068300063467
+    second: 8BitDeck_183
+  - first:
+      213: 7113673910847657987
+    second: 8BitDeck_184
+  - first:
+      213: 2540842083886076927
+    second: 8BitDeck_185
+  - first:
+      213: 6728972623709655853
+    second: 8BitDeck_186
+  - first:
+      213: -5748664613083430007
+    second: 8BitDeck_187
+  - first:
+      213: 430573675824170076
+    second: 8BitDeck_188
+  - first:
+      213: -6491173023134176868
+    second: 8BitDeck_189
+  - first:
+      213: -5899834256730695579
+    second: 8BitDeck_190
+  - first:
+      213: -4983772320669686797
+    second: 8BitDeck_191
+  - first:
+      213: -2941401048091649237
+    second: 8BitDeck_192
+  - first:
+      213: -776929024524462730
+    second: 8BitDeck_193
+  - first:
+      213: 5272960688319641644
+    second: 8BitDeck_194
+  - first:
+      213: -1479467539389828181
+    second: 8BitDeck_195
+  - first:
+      213: -2825960203218948004
+    second: 8BitDeck_196
+  - first:
+      213: 431282965085680100
+    second: 8BitDeck_197
+  - first:
+      213: -6843817230557117787
+    second: 8BitDeck_198
+  - first:
+      213: 2268383141860032115
+    second: 8BitDeck_199
+  - first:
+      213: -3269385950082474698
+    second: 8BitDeck_200
+  - first:
+      213: 1082052354936613227
+    second: 8BitDeck_201
+  - first:
+      213: 1530742593058154991
+    second: 8BitDeck_202
+  - first:
+      213: 5746327106864783574
+    second: 8BitDeck_203
+  - first:
+      213: 2689033824645164318
+    second: 8BitDeck_204
+  - first:
+      213: 1935319146665127503
+    second: 8BitDeck_205
+  - first:
+      213: -5289806403558298556
+    second: 8BitDeck_206
+  - first:
+      213: 7774757007817832048
+    second: 8BitDeck_207
+  - first:
+      213: 7696695058247539344
+    second: 8BitDeck_208
+  - first:
+      213: 3140606935537640819
+    second: 8BitDeck_209
+  - first:
+      213: 5826808989978431500
+    second: 8BitDeck_210
+  - first:
+      213: 447308664816558353
+    second: 8BitDeck_211
+  - first:
+      213: 2678706653303297527
+    second: 8BitDeck_212
+  - first:
+      213: -2802322882627203188
+    second: 8BitDeck_213
+  - first:
+      213: -4680171647518669375
+    second: 8BitDeck_214
+  - first:
+      213: 3386352046995796438
+    second: 8BitDeck_215
+  - first:
+      213: -3764865965693366225
+    second: 8BitDeck_216
+  - first:
+      213: 8817348079601835866
+    second: 8BitDeck_217
+  - first:
+      213: -7419383722750143554
+    second: 8BitDeck_218
+  - first:
+      213: 7879030052759277837
+    second: 8BitDeck_219
+  - first:
+      213: -2654232097612793147
+    second: 8BitDeck_220
+  - first:
+      213: 6840952051868211364
+    second: 8BitDeck_221
+  - first:
+      213: -8249016075437142604
+    second: 8BitDeck_222
+  - first:
+      213: -8270708886363297800
+    second: 8BitDeck_223
+  - first:
+      213: -8341148544769778004
+    second: 8BitDeck_224
+  - first:
+      213: -679188450073954987
+    second: 8BitDeck_225
+  - first:
+      213: 7699650187729098190
+    second: 8BitDeck_226
+  - first:
+      213: 6288790955755430645
+    second: 8BitDeck_227
+  - first:
+      213: -4146767422159918792
+    second: 8BitDeck_228
+  - first:
+      213: 8774580636656203664
+    second: 8BitDeck_229
+  - first:
+      213: 675186792422436732
+    second: 8BitDeck_230
+  - first:
+      213: -6575229725297411990
+    second: 8BitDeck_231
+  - first:
+      213: -4378722925263949606
+    second: 8BitDeck_232
+  - first:
+      213: -9000056305981118115
+    second: 8BitDeck_233
+  - first:
+      213: 2311785737354526432
+    second: 8BitDeck_234
+  - first:
+      213: 4825217051282563439
+    second: 8BitDeck_235
+  - first:
+      213: 7653326522388128661
+    second: 8BitDeck_236
+  - first:
+      213: -7516990028444865792
+    second: 8BitDeck_237
+  - first:
+      213: -3052732397454481613
+    second: 8BitDeck_238
+  - first:
+      213: 912753066215192204
+    second: 8BitDeck_239
+  - first:
+      213: 1576141207938525355
+    second: 8BitDeck_240
+  - first:
+      213: 361648114010090035
+    second: 8BitDeck_241
+  - first:
+      213: 7805165667528271640
+    second: 8BitDeck_242
+  - first:
+      213: 7008265277276817613
+    second: 8BitDeck_243
+  - first:
+      213: -9147883701800163728
+    second: 8BitDeck_244
+  - first:
+      213: -5512694509507430115
+    second: 8BitDeck_245
+  - first:
+      213: -3320876992486596191
+    second: 8BitDeck_246
+  - first:
+      213: -5564438896607252107
+    second: 8BitDeck_247
+  - first:
+      213: -1911796381013302643
+    second: 8BitDeck_248
+  - first:
+      213: 5130931820433658200
+    second: 8BitDeck_249
+  - first:
+      213: -8183944019946461529
+    second: 8BitDeck_250
+  - first:
+      213: -7232086301323340345
+    second: 8BitDeck_251
+  - first:
+      213: -4659619852313768090
+    second: 8BitDeck_252
+  - first:
+      213: 7195964217299585063
+    second: 8BitDeck_253
+  - first:
+      213: 3327543557617897387
+    second: 8BitDeck_254
+  - first:
+      213: -4905330658950509473
+    second: 8BitDeck_255
+  - first:
+      213: 1472424090126358138
+    second: 8BitDeck_256
+  - first:
+      213: -4919272365814753543
+    second: 8BitDeck_257
+  - first:
+      213: -3848404259700587546
+    second: 8BitDeck_258
+  - first:
+      213: -2159336892457258482
+    second: 8BitDeck_259
+  - first:
+      213: 2851591117462142572
+    second: 8BitDeck_260
+  - first:
+      213: 1342394620376669348
+    second: 8BitDeck_261
+  - first:
+      213: -8527371794078646673
+    second: 8BitDeck_262
+  - first:
+      213: -5538582453754090023
+    second: 8BitDeck_263
+  - first:
+      213: -6610987357197051123
+    second: 8BitDeck_264
+  - first:
+      213: -3346901952477987944
+    second: 8BitDeck_265
+  - first:
+      213: 7043995368273803594
+    second: 8BitDeck_266
+  - first:
+      213: 2712424849901586466
+    second: 8BitDeck_267
+  - first:
+      213: 6977869118767641937
+    second: 8BitDeck_268
+  - first:
+      213: 8390429756964324687
+    second: 8BitDeck_269
+  - first:
+      213: 3511499378592046074
+    second: 8BitDeck_270
+  - first:
+      213: -7033414761550069112
+    second: 8BitDeck_271
+  - first:
+      213: 8434960336326050969
+    second: 8BitDeck_272
+  - first:
+      213: 327334115037846696
+    second: 8BitDeck_273
+  - first:
+      213: -3109180907847465168
+    second: 8BitDeck_274
+  - first:
+      213: -4741383434069415073
+    second: 8BitDeck_275
+  - first:
+      213: -1345251464015888063
+    second: 8BitDeck_276
+  - first:
+      213: 9213938462241429705
+    second: 8BitDeck_277
+  - first:
+      213: -4460156610811506696
+    second: 8BitDeck_278
+  - first:
+      213: 4278799753775439904
+    second: 8BitDeck_279
+  - first:
+      213: -8727179399233115342
+    second: 8BitDeck_280
+  - first:
+      213: -5848853515975291620
+    second: 8BitDeck_281
+  - first:
+      213: -5093848287688702597
+    second: 8BitDeck_282
+  - first:
+      213: -7594270008829420517
+    second: 8BitDeck_283
+  - first:
+      213: -5629756656143625896
+    second: 8BitDeck_284
+  - first:
+      213: 8201124964868535701
+    second: 8BitDeck_285
+  - first:
+      213: 8356472129749957060
+    second: 8BitDeck_286
+  - first:
+      213: -3254554376109783157
+    second: 8BitDeck_287
+  - first:
+      213: 4883869109265201461
+    second: 8BitDeck_288
+  - first:
+      213: -368402115801141448
+    second: 8BitDeck_289
+  - first:
+      213: 9219280652088937418
+    second: 8BitDeck_290
+  - first:
+      213: 3398381795073555963
+    second: 8BitDeck_291
+  - first:
+      213: 3264692590500438494
+    second: 8BitDeck_292
+  - first:
+      213: 2537456251020999444
+    second: 8BitDeck_293
+  - first:
+      213: 4184561915226798949
+    second: 8BitDeck_294
+  - first:
+      213: -694020183712194722
+    second: 8BitDeck_295
+  - first:
+      213: -6615791859429665761
+    second: 8BitDeck_296
+  - first:
+      213: 43432068037088893
+    second: 8BitDeck_297
+  - first:
+      213: -7729390467064565805
+    second: 8BitDeck_298
+  - first:
+      213: 7480506859384222242
+    second: 8BitDeck_299
+  - first:
+      213: -4011856654217821870
+    second: 8BitDeck_300
+  - first:
+      213: -4274804528608330760
+    second: 8BitDeck_301
+  - first:
+      213: -7413012600167795380
+    second: 8BitDeck_302
+  - first:
+      213: 7062269207410300498
+    second: 8BitDeck_303
+  - first:
+      213: -5406121873483008053
+    second: 8BitDeck_304
+  - first:
+      213: 5351346177746675460
+    second: 8BitDeck_305
+  - first:
+      213: -3164514112823848586
+    second: 8BitDeck_306
+  - first:
+      213: 6717902355056671814
+    second: 8BitDeck_307
+  - first:
+      213: 5776244392798777828
+    second: 8BitDeck_308
+  - first:
+      213: 1820141492975631910
+    second: 8BitDeck_309
+  - first:
+      213: -6464222182248644054
+    second: 8BitDeck_310
+  - first:
+      213: 8390440709075735333
+    second: 8BitDeck_311
+  - first:
+      213: -1566308335022929773
+    second: 8BitDeck_312
+  - first:
+      213: -3200567878036771394
+    second: 8BitDeck_313
+  - first:
+      213: -7837214871804121741
+    second: 8BitDeck_314
+  - first:
+      213: 7220170647926682305
+    second: 8BitDeck_315
+  - first:
+      213: -7420697223106227353
+    second: 8BitDeck_316
+  - first:
+      213: -8891621007570741451
+    second: 8BitDeck_317
+  - first:
+      213: -983007175035409533
+    second: 8BitDeck_318
+  - first:
+      213: -7323832021165870645
+    second: 8BitDeck_319
+  - first:
+      213: 1116343136216257144
+    second: 8BitDeck_320
+  - first:
+      213: -4332095103745175161
+    second: 8BitDeck_321
+  - first:
+      213: -1634430313660071762
+    second: 8BitDeck_322
+  - first:
+      213: 5549568095504763226
+    second: 8BitDeck_323
+  - first:
+      213: 7816670753954952867
+    second: 8BitDeck_324
+  - first:
+      213: -2162245860000576300
+    second: 8BitDeck_325
+  - first:
+      213: 6867074411910972993
+    second: 8BitDeck_326
+  - first:
+      213: -775853857854323151
+    second: 8BitDeck_327
+  - first:
+      213: 633541009528704770
+    second: 8BitDeck_328
+  - first:
+      213: 6362005566518489651
+    second: 8BitDeck_329
+  - first:
+      213: -1588044141535830397
+    second: 8BitDeck_330
+  - first:
+      213: -74031123711911874
+    second: 8BitDeck_331
+  - first:
+      213: -3212564386791213009
+    second: 8BitDeck_332
+  - first:
+      213: 753051034058765230
+    second: 8BitDeck_333
+  - first:
+      213: -7563735676330592600
+    second: 8BitDeck_334
+  - first:
+      213: 3639323239215883638
+    second: 8BitDeck_335
+  - first:
+      213: -8981417902974962090
+    second: 8BitDeck_336
+  - first:
+      213: -8961637823140504267
+    second: 8BitDeck_337
+  - first:
+      213: 6110778734015554283
+    second: 8BitDeck_338
+  - first:
+      213: -5074615626670396637
+    second: 8BitDeck_339
+  - first:
+      213: 4597558771688462144
+    second: 8BitDeck_340
+  - first:
+      213: -4376068324702217509
+    second: 8BitDeck_341
+  - first:
+      213: -7837825247247206663
+    second: 8BitDeck_342
+  - first:
+      213: -4097788960354344131
+    second: 8BitDeck_343
+  - first:
+      213: 2651244664739699964
+    second: 8BitDeck_344
+  - first:
+      213: 1279733119525780169
+    second: 8BitDeck_345
+  - first:
+      213: -2570133152416031899
+    second: 8BitDeck_346
+  - first:
+      213: 3719067716763742243
+    second: 8BitDeck_347
+  - first:
+      213: 3244801827317312256
+    second: 8BitDeck_348
+  - first:
+      213: 1376210535400848735
+    second: 8BitDeck_349
+  - first:
+      213: 961882466065908774
+    second: 8BitDeck_350
+  - first:
+      213: -2087530347127859612
+    second: 8BitDeck_351
+  - first:
+      213: 4377909164309977736
+    second: 8BitDeck_352
+  - first:
+      213: 4405454685442772812
+    second: 8BitDeck_353
+  - first:
+      213: 7566091458828098931
+    second: 8BitDeck_354
+  - first:
+      213: -4394808950429884139
+    second: 8BitDeck_355
+  - first:
+      213: 8160558266268204957
+    second: 8BitDeck_356
+  - first:
+      213: -4361649258841289764
+    second: 8BitDeck_357
+  - first:
+      213: 5615510635639378649
+    second: 8BitDeck_358
+  - first:
+      213: 2363984414471172116
+    second: 8BitDeck_359
+  - first:
+      213: 2941940826912101069
+    second: 8BitDeck_360
+  - first:
+      213: -6447942964120426217
+    second: 8BitDeck_361
+  - first:
+      213: -6857702068389633112
+    second: 8BitDeck_362
+  - first:
+      213: 3469424756830156629
+    second: 8BitDeck_363
+  - first:
+      213: 8716713031461221105
+    second: 8BitDeck_364
+  - first:
+      213: -4295909980215281675
+    second: 8BitDeck_365
+  - first:
+      213: 5003462545088912359
+    second: 8BitDeck_366
+  - first:
+      213: -6350204514638337628
+    second: 8BitDeck_367
+  - first:
+      213: -308320321657803150
+    second: 8BitDeck_368
+  - first:
+      213: -7087651342764742392
+    second: 8BitDeck_369
+  - first:
+      213: -8061499285576087563
+    second: 8BitDeck_370
+  - first:
+      213: -7694963418280752304
+    second: 8BitDeck_371
+  - first:
+      213: 8049567776289242317
+    second: 8BitDeck_372
+  - first:
+      213: 7995290145392049355
+    second: 8BitDeck_373
+  - first:
+      213: 3634444234335370816
+    second: 8BitDeck_374
+  - first:
+      213: -2938730645048606375
+    second: 8BitDeck_375
+  - first:
+      213: 8376127778297431701
+    second: 8BitDeck_376
+  - first:
+      213: -7763953485822693188
+    second: 8BitDeck_377
+  - first:
+      213: 3522336723127622237
+    second: 8BitDeck_378
+  - first:
+      213: -3826969671200941703
+    second: 8BitDeck_379
+  - first:
+      213: -3100432966825047239
+    second: 8BitDeck_380
+  - first:
+      213: 914306955741211241
+    second: 8BitDeck_381
+  - first:
+      213: -4779086902583533342
+    second: 8BitDeck_382
+  - first:
+      213: 3750478141909439894
+    second: 8BitDeck_383
+  - first:
+      213: 6643561815014410735
+    second: 8BitDeck_384
+  - first:
+      213: 9000218877862558421
+    second: 8BitDeck_385
+  - first:
+      213: 5147630527214797068
+    second: 8BitDeck_386
+  - first:
+      213: -1229380505588150216
+    second: 8BitDeck_387
+  - first:
+      213: -1654285106236154241
+    second: 8BitDeck_388
+  - first:
+      213: -7472238458830580899
+    second: 8BitDeck_389
+  - first:
+      213: 385255155907615390
+    second: 8BitDeck_390
+  - first:
+      213: 1213325633549914825
+    second: 8BitDeck_391
+  - first:
+      213: -2785007930410297084
+    second: 8BitDeck_392
+  - first:
+      213: -2655531437612187106
+    second: 8BitDeck_393
+  - first:
+      213: -3345210109441834216
+    second: 8BitDeck_394
+  - first:
+      213: -823157438206659705
+    second: 8BitDeck_395
+  - first:
+      213: 2961664941010323391
+    second: 8BitDeck_396
+  - first:
+      213: -8593261460191173779
+    second: 8BitDeck_397
+  - first:
+      213: 2529668367983431650
+    second: 8BitDeck_398
+  - first:
+      213: 1235965114100071267
+    second: 8BitDeck_399
+  - first:
+      213: -602969549648339710
+    second: 8BitDeck_400
+  - first:
+      213: 830693318419402419
+    second: 8BitDeck_401
+  - first:
+      213: 5925322942640411519
+    second: 8BitDeck_402
+  - first:
+      213: 3581766842786510957
+    second: 8BitDeck_403
+  - first:
+      213: -4605654946498376279
+    second: 8BitDeck_404
+  - first:
+      213: -4710990560199080949
+    second: 8BitDeck_405
+  - first:
+      213: -3114960137177462994
+    second: 8BitDeck_406
+  - first:
+      213: -3459008240017633480
+    second: 8BitDeck_407
+  - first:
+      213: 8224031975647131634
+    second: 8BitDeck_408
+  - first:
+      213: -3574065262314194180
+    second: 8BitDeck_409
+  - first:
+      213: 380571884305938657
+    second: 8BitDeck_410
+  - first:
+      213: -5317945130090634855
+    second: 8BitDeck_411
+  - first:
+      213: -4135049099461082900
+    second: 8BitDeck_412
+  - first:
+      213: -142888967079380985
+    second: 8BitDeck_413
+  - first:
+      213: -2030412755094922128
+    second: 8BitDeck_414
+  - first:
+      213: 2394780643180786343
+    second: 8BitDeck_415
+  - first:
+      213: 1544653335831200418
+    second: 8BitDeck_416
+  - first:
+      213: -2031799111956883155
+    second: 8BitDeck_417
+  - first:
+      213: 5871427326037584330
+    second: 8BitDeck_418
+  - first:
+      213: 6480189597348341154
+    second: 8BitDeck_419
+  - first:
+      213: -2809332770254534184
+    second: 8BitDeck_420
+  - first:
+      213: 938532141258666794
+    second: 8BitDeck_421
+  - first:
+      213: -4498547335587822224
+    second: 8BitDeck_422
+  - first:
+      213: 5518371545016303803
+    second: 8BitDeck_423
+  - first:
+      213: 1356052706033679280
+    second: 8BitDeck_424
+  - first:
+      213: 6388500791447111388
+    second: 8BitDeck_425
+  - first:
+      213: 66180872244504852
+    second: 8BitDeck_426
+  - first:
+      213: 214590620997316833
+    second: 8BitDeck_427
+  - first:
+      213: -2269944745448584344
+    second: 8BitDeck_428
+  - first:
+      213: 4769832426193970122
+    second: 8BitDeck_429
+  - first:
+      213: -33862904528830392
+    second: 8BitDeck_430
+  - first:
+      213: -2491337236926242299
+    second: 8BitDeck_431
+  - first:
+      213: -3035545591211563337
+    second: 8BitDeck_432
+  - first:
+      213: 3148006047951190423
+    second: 8BitDeck_433
+  - first:
+      213: 3299546386221219312
+    second: 8BitDeck_434
+  - first:
+      213: 2340872293043465741
+    second: 8BitDeck_435
+  - first:
+      213: 8745170313302231587
+    second: 8BitDeck_436
+  - first:
+      213: -1816266979702134600
+    second: 8BitDeck_437
+  - first:
+      213: -1484594212438373067
+    second: 8BitDeck_438
+  - first:
+      213: -1571754034632151276
+    second: 8BitDeck_439
+  - first:
+      213: -5196777868677106121
+    second: 8BitDeck_440
+  - first:
+      213: -232898044709928371
+    second: 8BitDeck_441
+  - first:
+      213: -1197625276998782679
+    second: 8BitDeck_442
+  - first:
+      213: -1937028224949946735
+    second: 8BitDeck_443
+  - first:
+      213: 1173387069548724591
+    second: 8BitDeck_444
+  - first:
+      213: -3688051804418421839
+    second: 8BitDeck_445
+  - first:
+      213: -5962945679192575751
+    second: 8BitDeck_446
+  - first:
+      213: 2540014658552678769
+    second: 8BitDeck_447
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 8BitDeck_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b841a22aef6daaa70800000000000000
+      internalID: 8839113607798723723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9839382025bc80c0800000000000000
+      internalID: -4572080371969476449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad7fa25bd6334c80800000000000000
+      internalID: -8339761769347056214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36573ad4ac0be8d60800000000000000
+      internalID: 7894441579759498595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc6cceae5b73f9d0800000000000000
+      internalID: -2741712101548725069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_6
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fb24ff598de14c0800000000000000
+      internalID: -4314773254230065403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c434c7754cba8460800000000000000
+      internalID: 7244809957126976706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_8
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a70398f13305f340800000000000000
+      internalID: 4896823682993948577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_9
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14952c596acc2110800000000000000
+      internalID: 1237586551486387228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_10
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af88c895a995fbd50800000000000000
+      internalID: 6755216485541251322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_11
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a191dd7437011a60800000000000000
+      internalID: 7642897964655022503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_12
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac2095f32f85bb30800000000000000
+      internalID: 4302502403628870824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62950bfef60f92b0800000000000000
+      internalID: -5575730121458478483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54eb1685f2972f50800000000000000
+      internalID: 6856610540909487195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38829d3f9f72e99f0800000000000000
+      internalID: -459886157453776765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_16
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0959ed849b3f3be50800000000000000
+      internalID: 6824065837513479568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196c93a8557e0e930800000000000000
+      internalID: 4170587609522357905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a43bd09dcebdd20800000000000000
+      internalID: 3304495168588302964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87c4abd99d172d90800000000000000
+      internalID: -7122691739010938997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_20
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c1387618c9b88e0800000000000000
+      internalID: -1690085155546129366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_21
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a834c7aae4e653d0800000000000000
+      internalID: -3218133187221505879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_22
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5dcba30627e23e0800000000000000
+      internalID: -2076596620543339015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_23
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94af5ac23c07f900800000000000000
+      internalID: 718056077872047261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_24
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b041d1e807800580800000000000000
+      internalID: -8862935594447060815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_25
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542696d71bb9b4430800000000000000
+      internalID: 3768276699841126981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7283671ed25a0e0800000000000000
+      internalID: -2259349191682152462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712efd57916dea540800000000000000
+      internalID: 5021186039404814871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_28
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6637b5278c721e370800000000000000
+      internalID: 8349998925987148646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_29
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378e3d372d68e54d0800000000000000
+      internalID: -3143927251413505933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_30
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfdb99ceb31d1880800000000000000
+      internalID: -8638726800079593524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_31
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21960ef535d136cb0800000000000000
+      internalID: -4872018127956711150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_32
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad5b2c02c370a580800000000000000
+      internalID: -8817920793126412887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_33
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c18a1d953bf0020800000000000000
+      internalID: 2310262332215270484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_34
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0b5c52549d3dfc0800000000000000
+      internalID: -3471191996762836764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_35
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ac2f7fc05e4db30800000000000000
+      internalID: 4311322587162659336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_36
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7da6cb9c7ef4fb0800000000000000
+      internalID: -4661252235669612571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_37
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403f23153f8e95f70800000000000000
+      internalID: 9176621847481086724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_38
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 190
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519a986d1851aeb0800000000000000
+      internalID: -4710386851920572079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2498cccc6d6416340800000000000000
+      internalID: 4855239761655007554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60a0ef7c44891600800000000000000
+      internalID: 439527902743142510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f2c7cd6818480f0800000000000000
+      internalID: -1115624391456313593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_42
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cc8fc758d86be80800000000000000
+      internalID: -8163181670095598561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_43
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e78724534f2940800000000000000
+      internalID: 5273507717393672253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_44
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a08eaf866e582c0800000000000000
+      internalID: -4429881319888516558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_45
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab73482c180c4af0800000000000000
+      internalID: -410944548969940053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_46
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211f387385c9b58c0800000000000000
+      internalID: -4009439140540845806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_47
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d36449f2de98b40800000000000000
+      internalID: 5443142413260832075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_48
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c0458fc5441ad00800000000000000
+      internalID: 982141359837416581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_49
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dc80e556e5163e0800000000000000
+      internalID: -2062263364896633446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_50
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bbd753fbf3d5ee0800000000000000
+      internalID: -1270789429379876031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_51
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dc1d0c52ac10d70800000000000000
+      internalID: 9007702993215278360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8BitDeck_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b25222beb7408a46b98580ee453a721
+      internalID: -7471852199246917010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cbf9d5a2ac15acc49ae64c060f231522
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      8BitDeck_0: -7471852199246917010
+      8BitDeck_1: 8839113607798723723
+      8BitDeck_10: 6755216485541251322
+      8BitDeck_11: 7642897964655022503
+      8BitDeck_12: 4302502403628870824
+      8BitDeck_13: -5575730121458478483
+      8BitDeck_14: 6856610540909487195
+      8BitDeck_15: -459886157453776765
+      8BitDeck_16: 6824065837513479568
+      8BitDeck_17: 4170587609522357905
+      8BitDeck_18: 3304495168588302964
+      8BitDeck_19: -7122691739010938997
+      8BitDeck_2: -4572080371969476449
+      8BitDeck_20: -1690085155546129366
+      8BitDeck_21: -3218133187221505879
+      8BitDeck_22: -2076596620543339015
+      8BitDeck_23: 718056077872047261
+      8BitDeck_24: -8862935594447060815
+      8BitDeck_25: 3768276699841126981
+      8BitDeck_26: -2259349191682152462
+      8BitDeck_27: 5021186039404814871
+      8BitDeck_28: 8349998925987148646
+      8BitDeck_29: -3143927251413505933
+      8BitDeck_3: -8339761769347056214
+      8BitDeck_30: -8638726800079593524
+      8BitDeck_31: -4872018127956711150
+      8BitDeck_32: -8817920793126412887
+      8BitDeck_33: 2310262332215270484
+      8BitDeck_34: -3471191996762836764
+      8BitDeck_35: 4311322587162659336
+      8BitDeck_36: -4661252235669612571
+      8BitDeck_37: 9176621847481086724
+      8BitDeck_38: -4710386851920572079
+      8BitDeck_39: 4855239761655007554
+      8BitDeck_4: 7894441579759498595
+      8BitDeck_40: 439527902743142510
+      8BitDeck_41: -1115624391456313593
+      8BitDeck_42: -8163181670095598561
+      8BitDeck_43: 5273507717393672253
+      8BitDeck_44: -4429881319888516558
+      8BitDeck_45: -410944548969940053
+      8BitDeck_46: -4009439140540845806
+      8BitDeck_47: 5443142413260832075
+      8BitDeck_48: 982141359837416581
+      8BitDeck_49: -2062263364896633446
+      8BitDeck_5: -2741712101548725069
+      8BitDeck_50: -1270789429379876031
+      8BitDeck_51: 9007702993215278360
+      8BitDeck_6: -4314773254230065403
+      8BitDeck_7: 7244809957126976706
+      8BitDeck_8: 4896823682993948577
+      8BitDeck_9: 1237586551486387228
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
