@@ -53,6 +53,9 @@ MonoBehaviour:
   SortingGroup: {fileID: 1497473340921450544}
   FaceSpriteRenderer: {fileID: 5877466405202408548}
   Config: {fileID: 11400000, guid: 1738bc55b0b112b4ebdf94982b23cf55, type: 2}
+  BackFace: {fileID: 2639566810373823560}
+  FrontFace: {fileID: 3140785749700559696}
+  Collider: {fileID: 126732539840280055}
   CardResetSpeed: 25
 --- !u!210 &1497473340921450544
 SortingGroup:

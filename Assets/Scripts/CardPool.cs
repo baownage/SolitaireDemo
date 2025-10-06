@@ -70,6 +70,7 @@ public class CardPool : MonoBehaviour
     {
         _activeObjects.Remove(card);
         _deactiveObjects.Add(card);
+        card.Flip();
         card.gameObject.SetActive(false);
         card.transform.SetParent(transform);
     }

@@ -8,22 +8,27 @@ public class DeckManager : MonoBehaviour
     [SerializeField] private Transform NewCardTransform;
     [SerializeField] private List<CardConfig> Deck;
     [SerializeField] private GameObject CardPrefab;
+    [SerializeField] private Board Board;
 
     private List<CardConfig> _currentDeck;
+    private List<CardConfig> _standbyDeck;
 
     void Awake()
     {
         _currentDeck = new();
+        _standbyDeck = new();
     }
 
     void Start()
     {
         ResetDeck();
+        InitBoard();
     }
 
     private void ResetDeck()
     {
         _currentDeck.Clear();
+        _standbyDeck.Clear();
         foreach (var cardConfig in Deck)
         {
             _currentDeck.Add(cardConfig);
@@ -32,8 +37,26 @@ public class DeckManager : MonoBehaviour
         ShuffleDeck(_currentDeck);
     }
 
+    private void InitBoard()
+    {
+        int cardsToPlace = 1;
+        for (int i = 0; i < 7; i++)
+        {
+            for (int j = 0; j < cardsToPlace; j++)
+            {
+                bool faceUp = false;
+                if (j == cardsToPlace - 1) faceUp = true;
+
+                var card = DrawCard();
+                _standbyDeck.RemoveAt(_standbyDeck.Count - 1);
+                Board.AddCardToColumn(i, card, faceUp);
+            }
+            cardsToPlace++;
+        }
+    }
+
     [Button]
-    public void DrawCard()
+    public Card DrawCard()
     {
         var cardToDraw = _currentDeck[^1];
         var newCard = CardPool.Instance.GetCard();
@@ -42,6 +65,9 @@ public class DeckManager : MonoBehaviour
         newCard.SetConfig(cardToDraw);
         newCard.SetSortingOrder(52 - _currentDeck.Count);
         _currentDeck.RemoveAt(_currentDeck.Count - 1);
+        _standbyDeck.Add(cardToDraw);
+
+        return newCard;
     }
 
     private void ShuffleDeck<T>(List<T> list)
@@ -59,13 +85,8 @@ public class DeckManager : MonoBehaviour
     [Button]
     private void DebugReset()
     {
-        ResetDeck();
         CardPool.Instance.ReturnAll();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ResetDeck();
+        InitBoard();
     }
 }

@@ -11,12 +11,17 @@ public class Card : MonoBehaviour
     [SerializeField] private SortingGroup SortingGroup;
     [SerializeField] private SpriteRenderer FaceSpriteRenderer;
     [SerializeField] private CardConfig Config;
+    [SerializeField] private GameObject BackFace;
+    [SerializeField] private GameObject FrontFace;
+    [SerializeField] private Collider2D Collider;
 
     [SerializeField] private float CardResetSpeed = 3f;
 
     private Vector3 _startPosition;
 
     private bool _isBeingDragged;
+
+    public bool IsFaceUp => FrontFace.activeSelf;
 
     void OnEnable()
     {
@@ -80,5 +85,13 @@ public class Card : MonoBehaviour
     public void SetStartPosition()
     {
         _startPosition = transform.position;
+    }
+
+    public void Flip(bool faceUp = true)
+    {
+        FrontFace.SetActive(false);
+        if (faceUp) FrontFace.SetActive(true);
+        BackFace.SetActive(!FrontFace.activeSelf);
+        Collider.enabled = FrontFace.activeSelf;
     }
 }
