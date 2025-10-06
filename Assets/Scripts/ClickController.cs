@@ -39,7 +39,8 @@ public class ClickController : MonoBehaviour
     private void HandleCardClick(Collider2D collider)
     {
         if (!collider.gameObject.TryGetComponent<Card>(out var card)) return;
-
+        if (!card.IsFaceUp) return;
+        
         card.Drag();
     }
 
