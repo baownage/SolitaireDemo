@@ -56,6 +56,9 @@ MonoBehaviour:
   BackFace: {fileID: 2639566810373823560}
   FrontFace: {fileID: 3140785749700559696}
   Collider: {fileID: 126732539840280055}
+  CardZoneLayer:
+    serializedVersion: 2
+    m_Bits: 64
   CardResetSpeed: 25
 --- !u!210 &1497473340921450544
 SortingGroup:
