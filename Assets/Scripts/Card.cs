@@ -3,6 +3,7 @@ using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Rendering;
 using DG.Tweening;
+using System.Collections.Generic;
 
 public class Card : MonoBehaviour
 {
@@ -32,9 +33,10 @@ public class Card : MonoBehaviour
     
     // Used in multiple drag scenarios;
     private bool _isFirstCard;
-    private Card _nextCard;
+    public Card NextCard { get; private set; }
 
     public bool IsPlaced { get; private set; }
+    public bool IsTrashed { get; private set; }
     
     private int _previousSortOrder;
 
@@ -58,6 +60,7 @@ public class Card : MonoBehaviour
     public void Init()
     {
         IsPlaced = false;
+        IsTrashed = false;
         _mouseOffset = Vector3.zero;
         _camera = Camera.main;
     }
@@ -80,6 +83,11 @@ public class Card : MonoBehaviour
         FaceSpriteRenderer.sprite = Config.CardSprite;
         Rank = Config.Rank;
         Suit = Config.Suit;
+    }
+
+    public CardConfig GetConfig()
+    {
+        return Config;
     }
 
     public void SetConfig(CardConfig config)
@@ -109,7 +117,7 @@ public class Card : MonoBehaviour
         
         _mouseOffset = transform.position - mousePos;
 
-        _nextCard = nextCard;
+        NextCard = nextCard;
 
         Drag(isFirstCard);
     }
@@ -121,8 +129,9 @@ public class Card : MonoBehaviour
         {
             _isBeingDragged = false;
             _isFirstCard = true;
-            return;
+            return;    
         }
+
 
         _isBeingDragged = false;
         _isFirstCard = true;
@@ -169,23 +178,67 @@ public class Card : MonoBehaviour
     private void StackCardOnColumn(CardColumn cardColumn)
     {
         IsPlaced = true;
-        if (_currentColumn != null) _currentColumn.RemoveCard(this);
+        if (_currentColumn != null)
+        {
+            _currentColumn.RemoveCard(this);
+            bool flipped = _currentColumn.Refresh();
+
+            List<Card> undoCards = GetUndoCards();
+
+            var prevLocation = (UndoManager.Move.PreviousLocation)(_currentColumn.GetIndex + 3);
+            if(_isFirstCard)
+                UndoManager.Instance.AddMove(undoCards, prevLocation, flipped);
+        }
+        else
+        {
+            // From trash or standby
+            List<Card> undoCards = GetUndoCards();
+
+            var prevLocation = IsTrashed ? UndoManager.Move.PreviousLocation.Trash : UndoManager.Move.PreviousLocation.DeckStandby;
+            UndoManager.Instance.AddMove(undoCards, prevLocation);
+        }
         cardColumn.AddCard(this);
         
-        if(_nextCard != null) _nextCard.StackCardOnColumn(cardColumn);
+        if(NextCard != null) NextCard.StackCardOnColumn(cardColumn);
     }
 
     private void SendCardToTrash(TrashHolder trashHolder)
     {
         IsPlaced = true;
+        IsTrashed = true;
         trashHolder.AddCard(this);
         if (_currentColumn != null)
         {
             _currentColumn.RemoveCard(this);
-            _currentColumn.Refresh();
+            bool flipped = _currentColumn.Refresh();
+
+            List<Card> undoCards = GetUndoCards();
+
+            var prevLocation = (UndoManager.Move.PreviousLocation)(_currentColumn.GetIndex + 3);
+            UndoManager.Instance.AddMove(undoCards, prevLocation, flipped);
         }
+        else
+        {
+            UndoManager.Instance.AddMove(new List<Card>(){this}, UndoManager.Move.PreviousLocation.DeckStandby);
+        }
+
+        _currentColumn = null;
         
-        if(_nextCard != null) _nextCard.SendCardToTrash(trashHolder);
+        if (NextCard != null) NextCard.SendCardToTrash(trashHolder);
+    }
+
+    private List<Card> GetUndoCards()
+    {
+        List<Card> undoCards = new();
+        undoCards.Add(this);
+        Card head = NextCard;
+        while (head != null)
+        {
+            undoCards.Add(NextCard);
+            head = head.NextCard;
+        }
+
+        return undoCards;
     }
 
     private bool IsStackable(Card card)
@@ -202,7 +255,7 @@ public class Card : MonoBehaviour
         SetSortingOrder(_previousSortOrder);
         transform.DOMove(_startPosition, CardResetSpeed).SetSpeedBased();
         
-        if(_nextCard != null) _nextCard.ReturnToStartPosition();
+        if(NextCard != null) NextCard.ReturnToStartPosition();
     }
 
     public void SetStartPosition(Vector3 pos)
