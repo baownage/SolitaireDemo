@@ -112,7 +112,15 @@ public class Card : MonoBehaviour
             }
             return;
         }
-        
+
+        if (hitZone.gameObject.TryGetComponent<CardColumn>(out var cardColumn))
+        {
+            if(_currentColumn != null) _currentColumn.RemoveCard(this);
+            cardColumn.AddCard(this);
+            return;
+        }
+
+        ReturnToStartPosition();
     }
 
     private void ReturnToStartPosition()
