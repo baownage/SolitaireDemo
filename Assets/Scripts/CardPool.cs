@@ -63,6 +63,8 @@ public class CardPool : MonoBehaviour
         _activeObjects.Add(card);
         _deactiveObjects.RemoveAt(_deactiveObjects.Count - 1);
 
+        card.Init();
+
         return card;
     }
 
