@@ -5,11 +5,14 @@ public class CardColumn : MonoBehaviour
 {
 
     [SerializeField] private BoxCollider2D Collider;
+    [SerializeField] private int Index;
 
     private List<Card> _cards;
 
     private float _startYOffset;
     private float _startYSize;
+
+    public int GetIndex => Index;
 
 
     void Awake()
@@ -32,6 +35,12 @@ public class CardColumn : MonoBehaviour
         card.SetSortingOrder(_cards.Count);
     }
 
+    public void FlipLast(bool flip)
+    {
+        if (_cards.Count == 0) return;
+        _cards[^1].Flip(flip);
+    }
+
     private void RefreshColliderSize()
     {
         var offset = _cards.Count * 0.54f;
@@ -39,7 +48,7 @@ public class CardColumn : MonoBehaviour
         Collider.offset = new Vector2(Collider.offset.x, -offset / 2f);
     }
 
-    public void Refresh()
+    public bool Refresh()
     {
         bool allFaceDown = true;
         foreach (var card in _cards)
@@ -54,14 +63,16 @@ public class CardColumn : MonoBehaviour
         if (allFaceDown && _cards.Count > 0)
         {
             _cards[^1].Flip(true);
+            return true;
         }
+
+        return false;
     }
 
     public void RemoveCard(Card card)
     {
         _cards.Remove(card);
         RefreshColliderSize();
-        Refresh();
     }
 
     public Card GetTopCard()

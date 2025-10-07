@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using NaughtyAttributes;
 using UnityEngine;
 
-public class DeckManager : MonoBehaviour
+public class DeckManager : MonoBehaviour, IUndoable
 {
 
     [SerializeField] private Transform NewCardTransform;
@@ -26,6 +26,7 @@ public class DeckManager : MonoBehaviour
     {
         ResetDeck();
         InitBoard();
+        UndoManager.Instance.Clear();
     }
 
     private void ResetDeck()
@@ -66,30 +67,38 @@ public class DeckManager : MonoBehaviour
             {
                 _currentDeck.Add(_standbyDeck[i]);
             }
-            
+
             _standbyDeck.Clear();
 
             foreach (var card in _drawnCards)
             {
-                if(card.IsPlaced) continue;
-                
+                if (card.IsPlaced) continue;
+
                 CardPool.Instance.Return(card);
             }
-            
+
             _drawnCards.Clear();
             return null;
         }
         var cardToDraw = _currentDeck[^1];
         var newCard = CardPool.Instance.GetCard();
-        newCard.transform.position = NewCardTransform.position;
-        newCard.SetStartPosition();
+        PlaceCardToStandby(newCard);
         newCard.SetConfig(cardToDraw);
-        newCard.SetSortingOrder(52 - _currentDeck.Count);
         _drawnCards.Add(newCard);
         _currentDeck.RemoveAt(_currentDeck.Count - 1);
-        _standbyDeck.Add(cardToDraw);
+
+        UndoManager.Instance.AddMove(new List<Card>() { newCard }, UndoManager.Move.PreviousLocation.Deck);
 
         return newCard;
+    }
+
+    private void PlaceCardToStandby(Card newCard)
+    {
+        _standbyDeck.Add(newCard.GetConfig());
+        newCard.transform.position = NewCardTransform.position;
+        newCard.SetStartPosition();
+        newCard.SetColumn(null);
+        newCard.SetSortingOrder(_standbyDeck.Count);
     }
 
     private void ShuffleDeck<T>(List<T> list)
@@ -110,5 +119,25 @@ public class DeckManager : MonoBehaviour
         CardPool.Instance.ReturnAll();
         ResetDeck();
         InitBoard();
+    }
+
+    public void Undo(List<Card> cards, UndoManager.Move.PreviousLocation previousLocation, bool flipped = false)
+    {
+        if (previousLocation == UndoManager.Move.PreviousLocation.Deck)
+        {
+            var card = cards[0];
+            var cardConfig = card.GetConfig();
+
+            _standbyDeck.Remove(cardConfig);
+            _currentDeck.Add(cardConfig);
+
+            CardPool.Instance.Return(card);
+        }
+
+        if (previousLocation == UndoManager.Move.PreviousLocation.DeckStandby)
+        {
+            var card = cards[0];
+            PlaceCardToStandby(card);
+        }
     }
 }
