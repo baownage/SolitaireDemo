@@ -28,6 +28,8 @@ public class CardColumn : MonoBehaviour
         card.SetColumn(this);
         RefreshColliderSize();
         _cards.Add(card);
+        
+        card.SetSortingOrder(_cards.Count);
     }
 
     private void RefreshColliderSize()
@@ -60,5 +62,39 @@ public class CardColumn : MonoBehaviour
         _cards.Remove(card);
         RefreshColliderSize();
         Refresh();
+    }
+
+    public Card GetTopCard()
+    {
+        if (_cards.Count > 0) return _cards[^1];
+        return null;
+    }
+
+    public List<Card> GetCardsFrom(Card card)
+    {
+        if (GetTopCard() == card)
+        {
+            return new List<Card> { card };
+        }
+        
+        // Find card index in column
+        int cardIndex = 0;
+        for (int i = 0; i < _cards.Count; i++)
+        {
+            if (_cards[i] == card)
+            {
+                cardIndex = i;
+                break;
+            }
+        }
+    
+        // Add all cards from index and return
+        List<Card> cards = new();
+        for (int i = cardIndex; i < _cards.Count; i++)
+        {
+            cards.Add(_cards[i]);
+        }
+
+        return cards;
     }
 }
